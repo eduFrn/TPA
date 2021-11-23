@@ -13,9 +13,9 @@ public class Exercicio10 {
 		}
 
 		for(i=0;i<TAM;i++) {			
-			for(j=0;j<TAM;j++){
+			for(j=i;j<TAM;j++){
 
-				if(a[i]<=a[j]){
+				if(a[i]>a[j]){
 					c=a[i];
 					a[i]=a[j];
 					a[j]=c;
